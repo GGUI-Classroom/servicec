@@ -8,7 +8,7 @@ app.get("/api/proxy", proxyHandler);
 
 // Health check
 app.get("/", (req, res) => {
-  res.send("Nolan’s Proxy backend is running 🔥");
+  res.send("G.GUI Proxy // Status: Running");
 });
 
 const PORT = process.env.PORT || 3000;
